@@ -10,8 +10,10 @@ django-countries = "*"
 django-seed = "*"
 django-dotenv = "*"
 django-ses = "*"
+requests = "*"
 
 [dev-packages]
+flake8 ="*"
 black = "*"
 
 [requires]

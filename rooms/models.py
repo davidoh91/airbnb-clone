@@ -104,4 +104,22 @@ class Room(core_models.TimeStampedModel):
             return round(all_ratings / len(all_reviews), 2)
         return 0
 
+    # def first_photo(self):
+    #     photo = self.photos.all()[0:1]
+    #     print(photo)
+        
+    #     for p in photo:
+    #         if p is None:
+    #             print("no photo here")
+    #             pass
+    #         else:
+    #             return p.file.url
 
+    def first_photo(self):
+        try:
+            photo, = self.photos.all()[:1]
+            print(photo)
+            return photo.file.url
+        except ValueError:
+            return None
+    

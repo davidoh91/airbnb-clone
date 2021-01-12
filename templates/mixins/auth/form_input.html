@@ -1,0 +1,8 @@
+<div class="input w-full {% if field.errors %}has_error{% endif %} py-2 rounded-md">
+    {{field}}
+    {% if field.errors %}
+        {% for error in field.errors %}
+            <span class="text-red-700 font-medium text-sm">{{error}}</span> 
+        {% endfor %}
+    {% endif %}
+</div>

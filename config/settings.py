@@ -55,7 +55,7 @@ PROJECT_APPS = [
 
 ]
 
-INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
+INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APPS
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -150,3 +150,7 @@ EMAIL_PORT = "587"
 EMAIL_HOST_USER = "airbnb@sandboxffc0394294944847b212f6fab253f15c.mailgun.org"
 EMAIL_HOST_PASSWORD = "8218ecfa6a1e83169e5a6ce62c9cbb98-c50a0e68-3f88630c"
 EMAIL_FROM = "airbnb@sandboxffc0394294944847b212f6fab253f15c.mailgun.org"
+
+
+#Auth
+LOGIN_URL = "/users/login/"

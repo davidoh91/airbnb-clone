@@ -7,7 +7,7 @@ class Day:
         self.past = past
         self.month = month
         self.year = year
-    
+
     def __str__(self):
         return str(self.number)
 

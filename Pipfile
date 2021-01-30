@@ -12,6 +12,7 @@ django-dotenv = "*"
 django-ses = "*"
 requests = "*"
 npm = "*"
+python-gettext = "*"
 
 [dev-packages]
 flake8 ="*"

@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-01 00:28+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\templates\base.html:24
+msgid "Search By City"
+msgstr "도시 검색"
+
+#: .\templates\partials\footer.html:5
+msgid "Please don't copy this!"
+msgstr "클론코딩 하지만 도용금지"
+
+#: .\templates\partials\footer.html:7
+msgid "All rights reserved"
+msgstr "소유자 저작권"
+
+#: .\templates\partials\nav.html:8
+msgid "Stop hosting"
+msgstr "호스트 모드 취소"
+
+#: .\templates\partials\nav.html:10
+msgid "Start hosting"
+msgstr "호스트 모드 변경"
+
+#: .\templates\partials\nav.html:15
+msgid "Create Room"
+msgstr "방 생성"
+
+#: .\templates\partials\nav.html:17
+msgid "Profile"
+msgstr "프로필"
+
+#: .\templates\partials\nav.html:18
+msgid "Log out"
+msgstr "로그아웃"
+
+#: .\templates\partials\nav.html:20
+msgid "Log in"
+msgstr "로그인"
+
+#: .\templates\partials\nav.html:21
+msgid "Sign up"
+msgstr "가입"
+
+#: .\templates\rooms\room_detail.html:31
+msgid "Save to Favourites"
+msgstr "방 저장!"
+
+#: .\templates\rooms\room_list.html:29
+#, python-format
+msgid "Page %(current_page)s of %(total_pages)s"
+msgstr "페이지 %(total_pages)s 중 %(current_page)s"
+
+#: .\users\mixins.py:13
+msgid "Can't go there"
+msgstr "그곳으로 갈 수 없음"
+
+#: .\users\models.py:19
+msgid "Male"
+msgstr "남성"
+
+#: .\users\models.py:20
+msgid "Female"
+msgstr "여성"
+
+#: .\users\models.py:21
+msgid "Other"
+msgstr "다른 옵션"
+
+#: .\users\models.py:28
+msgid "English"
+msgstr "영어"
+
+#: .\users\models.py:29
+msgid "Korean"
+msgstr "한글"
+
+#: .\users\models.py:45
+msgid "gender"
+msgstr "성별"
+
+#: .\users\models.py:47
+msgid "bio"
+msgstr "신상정보"
+
+#: .\users\models.py:50
+msgid "language"
+msgstr "언어"
+
+#: .\users\models.py:74
+msgid "Verify Airbnb Account"
+msgstr "에어비앤비 계정 확인"

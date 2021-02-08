@@ -13,6 +13,7 @@ django-ses = "*"
 requests = "*"
 npm = "*"
 python-gettext = "*"
+pipenv-to-requirements = "*"
 
 [dev-packages]
 flake8 ="*"
